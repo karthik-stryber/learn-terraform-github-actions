@@ -15,13 +15,13 @@ terraform {
     organization = "stryber"
 
     workspaces {
-      name = "gh-actions-demo"
+      name = "playground"
     }
   }
 }
 
 provider "aws" {
-  region = "us-west-2"
+  region = "eu-west-1"
 }
 
 resource "random_pet" "sg" {}
